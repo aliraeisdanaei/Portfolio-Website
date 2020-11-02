@@ -1,17 +1,18 @@
 import { fade } from './../animations'
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css'],
-
+  selector: 'about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css'],
+  
   animations: [
     fade
     
   ]
 })
-export class WelcomeComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
   constructor() { }
 
