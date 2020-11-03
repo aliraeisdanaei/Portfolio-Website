@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-// import * as projects from './projects/projects.json';
-
 
 @Component({
   selector: 'app-root',
@@ -10,6 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Portfolio-Website';
 
-  // projectsList: any = projects;
 
 }
