@@ -1,0 +1,24 @@
+<div class="bg" @fade>
+
+    <div class='blackBox' id="testimonies" @fade>
+        <h1>Testimonies</h1>
+    </div>
+
+
+    <div *ngFor="let testy of testimoniesList" @fade>
+        <br>
+        <div class='blackBox'>
+
+
+            <p>"{{testy.testimony}}"
+                <br> -{{testy.name}}
+            </p>
+
+
+        </div>
+
+
+        <br>
+    </div>
+
+</div>

@@ -1,10 +1,16 @@
+import { fade } from './../animations'
 import { Component, OnInit } from '@angular/core';
 import * as projects from './projects.json';
 
 @Component({
   selector: 'projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
+
+  animations: [
+    fade
+    
+  ]
 })
 export class ProjectsComponent implements OnInit {
 

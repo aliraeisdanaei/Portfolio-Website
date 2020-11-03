@@ -1,18 +1,18 @@
-<div class="bg">
+<div class="bg" @fade>
 
-    <div class='blackBox' id="projects">
+    <div class='blackBox' id="projects" @fade>
         <h1>Projects</h1>
     </div>
 
 
-    <div *ngFor="let project of projectsList">
+    <div *ngFor="let project of projectsList" @fade>
         <br>
         <div class='blackBox'>
             <h2>{{project.name}}</h2>
             <h3>{{project.languages}}</h3>
 
             <p class="clearfix">{{project.description}}
-                <img src='../assets/{{project.pic}}'>
+                <img src='./{{project.pic}}'>
 
             </p>
             <a href="{{project.link}}" target='blank'>Source Coude</a>

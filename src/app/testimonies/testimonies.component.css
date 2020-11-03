@@ -1,0 +1,27 @@
+.bg {
+    background: url('./testimonies.jpg') no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.blackBox {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    word-wrap: break-word;
+    margin: auto;
+    font-family: Courier, monospace;
+    font-size: medium;
+    margin: 0;
+    padding: 20px;
+    display: table;
+}
+
+h1 {
+    font-size: 300%;
+}
