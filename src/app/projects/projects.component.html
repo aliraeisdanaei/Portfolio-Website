@@ -15,13 +15,21 @@
                 <img src='../assets/{{project.pic}}' alt='{{project.pic}}'>
 
             </p>
-            <a href="{{project.link}}" target='blank'>Source Coude</a>
+            <a *ngIf="project.link; else linuxLink" href="{{project.link}}" target='blank'>Source Coude</a>
 
+            <ng-template #linuxLink>
+                <p><a href="https://github.com/aliraeisdanaei/i3" target='blank'>i3 Window Manager, Brightness Control, & Screen Timer</a></p>
+                <p><a href="https://github.com/aliraeisdanaei/photo-tools" target='blank'>Apple Photo-format Converter</a></p>
+                <p><a href="https://github.com/aliraeisdanaei/punch" target='blank'>Punch Timer</a></p>
+
+            </ng-template>
 
         </div>
 
 
         <br>
     </div>
+
+
 
 </div>

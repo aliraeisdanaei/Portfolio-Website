@@ -18,6 +18,18 @@ export class ProjectsComponent implements OnInit {
   // // public projectsList: {name:String, languages: String, description: String, link:String}[] = projects;
   // public projects = projects;
 
+  linuxLink: any =[{
+    name: "i3 Window Manager, Brightness Control, & Screen Timer",
+    link: "https://github.com/aliraeisdanaei/i3"
+  }
+,{
+  name: "Apple Photo-format Converter",
+  link: "https://github.com/aliraeisdanaei/photo-tools"
+},{
+  name: "Punch Timer",
+  link: "https://github.com/aliraeisdanaei/punch"
+}];
+
 
   projectsList: any=[{
     name: "Erika",
@@ -28,8 +40,8 @@ export class ProjectsComponent implements OnInit {
 }, {
     name: "Linux Utilities",
     languages: "Bash",
-    description: "Changing from Windows to a bare distro of Linux was not easy. I was determined to write a customizable computer experience. Using i3, I built many features and key bindings for programs. Through the process, I was able to understand the fundamental principles of Linux and gain deep insight into the legacy programs of Linux. Some of the basic utilities that I have written include, a punch timer, battery reminder, and photo converter.",
-    link: "https://github.com/aliraeisdanaei/i3",
+    description: "Changing from Windows to a bare distro of Linux was not easy. I was determined to write a customizable computer experience. Using i3, I built many features and key bindings for programs. Through the process, I was able to understand the fundamental principles of Linux and gain deep insight into the legacy programs of Linux. Some of the basic shell utilities that I have written include, a punch timer, battery reminder, screen brightness changer, and photo converter.",
+    linuxLink: true,
     pic: "linux.png"
 
 }, {
