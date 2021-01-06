@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnInit {
   // public projects = projects;
 
   linuxLink: any =[{
-    name: "i3 Window Manager, Brightness Control, & Screen Timer",
+    name: "i3 Window Manager, Dynamic Background, Brightness Controller, Low Battery Reminder, & 20-20-20 Reminder",
     link: "https://github.com/aliraeisdanaei/i3"
   }
 ,{
@@ -32,29 +32,29 @@ export class ProjectsComponent implements OnInit {
 
 
   projectsList: any=[{
-    name: "Erika",
+    name: "Erika Compiler",
     languages: "C++",
-    description: "Using C++, I am writing my very own programming language. The project includes a lexer that tokenizes the code. A shift reduce parser that creates an excecution tree. Finally, a generator produces LLVM IR code from the excecution tree.",
+    description: "Creating a toy coding language is as fun as learning a language. I set out to create a simple coding language from scratch using C++. This project includes a lexer, a parser, and a compiler that converts Erika into LLVM IR. Advanced understanding of data structures, and compiler design was needed to start this project. This project is still in progress.",
     link: "https://github.com/aliraeisdanaei/Erika",
     pic: "c++.svg"
 }, {
     name: "Linux Utilities",
     languages: "Bash",
-    description: "Changing from Windows to a bare distro of Linux was not easy. I was determined to write a customizable computer experience. Using i3, I built many features and key bindings for programs. Through the process, I was able to understand the fundamental principles of Linux and gain deep insight into the legacy programs of Linux. Some of the basic shell utilities that I have written include, a punch timer, battery reminder, screen brightness changer, and photo converter.",
+    description: "I believe in the power of Linux and preach its good word to everyone I meet. Of course, the good thing about Linux is its customizability, so from the very beginning, I set out to create a unique experience of computing. Desktop environments require too many resources; I use a bare-bone server distro with a lightweight tiling window manager: i3. To get daily utility, I have had to write countless config files, and critical and reliable scripts. These include a script for a dynamic background, a brightness controller, low battery reminder, and a 20-20-20 rule reminder. Other scripts that solve daily problems include a punch in program to time the productive hours spent behind the machine and a useful apple photo converter that converts unviewable apple photo formats and live photos to jpeg. ",
     linuxLink: true,
     pic: "linux.png"
 
 }, {
     name: "Portfolio Website",
     languages: "Angular, Typescript, HTML, CSS",
-    description: "This very website was coded from scratch using Angular. Technical and creative skills were required to put this through.",
+    description: "A man is as good as his website… so they seem to say. I needed a good website to showcase some of the projects that I had worked on. I used Angular and typescripting to design and build such a work, and I made sure it was simple but elegant. To connect to the hosting server, I used command line tools such as FTP and SFTP on a regular basis. ",
     link: "https://github.com/aliraeisdanaei/Portfolio-Website",
     pic: "angular.png"
 },
 {
   name: "Netflix Movie Suggester",
   languages: "Python",
-  description: "Finding a movie to watch on Netflix can be hard. This program seeks to remedy that by scraping the web for all of the current movies running on Netflix and suggesting movies exhaustively based on your preferences. The text based user interface is complete with everything one would need to change their preferences to logging as someone else. ",
+  description: "I have spent many a good hour with my friend oblivious of good content on Netflix. A trusty web-scraper built to give exhaustive suggestions based on user profiles was its solution. It was built using Python and works with a text user interface. Users can create profiles or change their criterion within the interface to find the perfect movie. The code was written in modular format to allow for future addition of a graphical user interface. ",
   link: "https://github.com/aliraeisdanaei/NetflixMovieSuggester",
   pic: "python.png"
 }];
