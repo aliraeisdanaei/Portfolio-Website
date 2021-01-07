@@ -1,12 +1,20 @@
-.bg {
-    background: url('./projects.jpg') no-repeat center center fixed;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    width: 100vw;
-    /* height: 100vh; */
+@media (min-width: 725px) {
+    .bg {
+        background: url('./projects.jpg') no-repeat center center fixed;
+        height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        width: 100vw;
+        /* height: 100vh; */
+    }
+}
+
+@media (max-width: 725px) {
+    .bg {
+        background-color: black;
+    }
 }
 
 .blackBox {

@@ -45,9 +45,9 @@ export class ProjectsComponent implements OnInit {
     pic: "linux.png"
 
 }, {
-    name: "Portfolio Website",
-    languages: "Angular, Typescript, HTML, CSS",
-    description: "A man is as good as his website… so they seem to say. I needed a good website to showcase some of the projects that I had worked on. I used Angular and typescripting to design and build such a work, and I made sure it was simple but elegant. To connect to the hosting server, I used command line tools such as FTP and SFTP on a regular basis. ",
+    name: "Portfolio Website & Web Server",
+    languages: "Angular, Typescript, HTML, CSS, Apache2",
+    description: "A man is as good as his website… so they seem to say. I needed a good website to showcase some of the projects that I had worked on. I used Angular and typescripting to design and build such a work, and I made sure it was simple but elegant. To host the website live, I created a web server with my own computer using Apache2. This gave me a thorough understanding of the internet.",
     link: "https://github.com/aliraeisdanaei/Portfolio-Website",
     pic: "angular.png"
 },
